@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Numans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Volleyball Scoreboard</h1>
+        <div class="screen">
+            <div class="parts-continer">
+                <h3>HOME</h3>
+                <span id="home-count">0</span>
+                <button onclick="add1Home()" class="add-btn">+1</button>
+            </div>
+            <div class="parts-continer">
+                <span class="divider">:</span>
+            </div>
+            <div class="parts-continer">
+                <h3>GUEST</h3>
+                <span id="guest-count">0</span>
+                <button onclick="add1Guest()" class="add-btn">+1</button>
+            </div>
+        </div>
+        <button onclick="reset()" class="reset-btn">START NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>
