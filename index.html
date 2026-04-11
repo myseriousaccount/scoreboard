@@ -7,6 +7,10 @@
     </head>
     <body>
         <h1>Volleyball Scoreboard</h1>
+        <!--add games counter-->
+        <div class="games-counter">
+            <p>Games: <span id="games-count">0</span></p>
+        </div>
         <div class="screen">
             <div class="parts-continer">
                 <h3>HOME</h3>
@@ -31,6 +35,8 @@
             <li>Set 5: <span id="set5"></span></li>
         </ul>
         <button onclick="reset()" class="reset-btn">START NEW GAME</button>
+        <!--add "End Game" button-->
+        <button onclick="endGame()" class="end-btn">END GAME</button>
         <script src="index.js"></script>
     </body>
 </html>
